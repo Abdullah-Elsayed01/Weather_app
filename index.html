@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="card">
+    <div class="search-bar error">
+      <input autocomplete="off" type="text" id="searchBar" placeholder="Search">
+      <i onclick="getCity()" class="fa-solid fa-magnifying-glass"></i>
+    </div>
+    <div class="error-message">Not Founded</div>
+    <div class="weather-info">
+      <div class="date-output"></div>
+      <div class="weather-img">
+      </div>
+      <div class="main-temp">48°C</div>
+      <div class="location">Jeddah</div>
+    </div>
+    <div class="min-max">
+      <div class="min-temp"><span>min:</span>48°C</div>
+      <div class="max-temp"><span>max:</span>48°C</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
